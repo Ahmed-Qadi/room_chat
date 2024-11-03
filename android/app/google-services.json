@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "952098236143",
+    "project_id": "chatroom-5eba7",
+    "storage_bucket": "chatroom-5eba7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952098236143:android:c2cdd1f7f1257e02cf5d1a",
+        "android_client_info": {
+          "package_name": "com.qadi.room_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF9kzeP4FSQ3sdBGas_40WKt7Yj_1P-Ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
