@@ -28,6 +28,8 @@ class HomePage extends StatelessWidget {
     );
   }
 
+
+
   Widget _buildUserList() {
     return StreamBuilder(
       stream: _chatServices.getUserStream(),

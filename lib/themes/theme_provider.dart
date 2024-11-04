@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:room_chat/themes/light_mode.dart';
-
 import 'dark_mode.dart';
 
 class ThemeProvider extends ChangeNotifier{

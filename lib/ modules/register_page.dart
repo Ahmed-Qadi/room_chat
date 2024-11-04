@@ -1,7 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:room_chat/auth/Auth_service.dart';
-
 import '../components/my_button.dart';
 import '../components/my_textfield.dart';
 
@@ -18,8 +16,7 @@ class _RegisterPageState extends State<RegisterPage> {
   final TextEditingController _emailController = TextEditingController();
 
   final TextEditingController _passwordController = TextEditingController();
-  final TextEditingController _confirmPasswordController =
-      TextEditingController();
+  final TextEditingController _confirmPasswordController = TextEditingController();
 
   //show pass
   bool _isPassword = true;
@@ -39,7 +36,7 @@ class _RegisterPageState extends State<RegisterPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const SizedBox(height: 200),
+            const SizedBox(height: 140),
             Icon(
               Icons.message,
               size: 80,

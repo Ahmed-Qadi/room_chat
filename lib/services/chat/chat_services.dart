@@ -51,7 +51,7 @@ class ChatServices {
 
   // get message
   Stream<QuerySnapshot> getMessage(String userID, otherUserID) {
-    //constructor a chatroom ID foe the tow users
+    //constructor a chatroom ID for the tow users
     List<String> ids = [userID, otherUserID];
     ids.sort();
     String chatRoomID = ids.join('_');

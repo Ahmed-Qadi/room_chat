@@ -116,7 +116,7 @@ class ChatPage extends StatelessWidget {
           Expanded(
               child: MyTextField(
                   hint: 'type your message..',
-                  radius: 100.0,
+                  radius: 18.0,
                   isPassword: false,
                   controller: _messageController,
                   keyboardType: TextInputType.text)),

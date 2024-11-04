@@ -25,7 +25,7 @@ class UserTile extends StatelessWidget {
 
             SizedBox(width: 10,),
             //user name
-            Text(text),
+            Text(text,maxLines: 1,overflow: TextOverflow.ellipsis),
 
           ],
         ),
